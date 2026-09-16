@@ -1,0 +1,15 @@
+{
+  "name": "answer-engine-readiness",
+  "version": "0.1.0",
+  "description": "Score how readable a profile page is to AI answer engines, generate the probe queries that could surface it, and record citation runs without inventing a measurement.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.0"
+  }
+}

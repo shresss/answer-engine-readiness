@@ -44,6 +44,10 @@ Drop, do not soften. When a generated query contains vocabulary the platform mus
 
 The negative is a first-class value. `not-probed` exists so that "we have not asked" is never rendered as "no."
 
+## Relationship to ai-visibility-probe
+
+This library and [`ai-visibility-probe`](https://github.com/shresss/ai-visibility-probe) came out of the same contract and answer different questions under one rule. The probe asks the engines, through their official APIs and a SERP vendor, whether a subject is cited today, and records exactly what came back. This library scores a page for what an answer engine needs from it and records hand-run checks as observed, because the consumer products cannot be driven headlessly. Neither one claims a consumer-product citation it did not see: a query here is `cited`, `not-cited`, or `not-probed`, and nothing else.
+
 ## License
 
 MIT
